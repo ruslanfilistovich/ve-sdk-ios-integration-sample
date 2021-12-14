@@ -47,9 +47,9 @@ provider.loadToken() { [weak self] (error, token) in
 
 You can create your custom TokenProvider class if your token is stored in any custom types of encryption 
 
-```
 Here is an example of TokenProvider class to get token from ```Data```
 
+```swift
 import Foundation
 import BanubaTokenStorageSDK
 
